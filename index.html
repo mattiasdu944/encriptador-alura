@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador | Mattias Duarte</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador <span>Alura</span></h1>
+    </header>
+
+    <main>
+
+        <form>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingresa el mensaje para encriptar"></textarea>
+            <div class="button__group">
+
+                <button type="submit" onclick="encriptarMensaje(event);">Encriptar <i class="uil uil-lock"></i></button>
+                <button type="submit" onclick="encriptarMensaje(event);">Desencriptar <i class="uil uil-unlock"></i></button>
+            </div>
+        </form>
+
+        <form>
+            <textarea name="mensaje" id="mensajeEncriptado" cols="30" rows="10"></textarea>
+        </form>
+    </main>
+    <footer>
+        <p>Diseñado y desarrollado por &c
+            opy;Mattias Duarte</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
